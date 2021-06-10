@@ -1,8 +1,20 @@
 import React from 'react';
+import {SafeEnvironmentContainerstyled} from './styled';
+import {Container} from '@material-ui/core';
+
 
 
 const SafeEnvironment = () => {
-    return <div>Ambiete seguro</div>
+    return(
+    <SafeEnvironmentContainerstyled>
+        <Container>
+            Ambiente Seguro
+
+        </Container>
+    </SafeEnvironmentContainerstyled> 
+
+    );
+
 }
 
 export default SafeEnvironment;
