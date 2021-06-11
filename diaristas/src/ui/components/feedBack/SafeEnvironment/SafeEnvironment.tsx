@@ -1,20 +1,15 @@
-import React from 'react';
-import {SafeEnvironmentContainerstyled} from './styled';
-import {Container} from '@material-ui/core';
-
-
+import React from "react";
+import { SafeEnvironmentContainerstyled } from "./styled";
+import { Container } from "@material-ui/core";
 
 const SafeEnvironment = () => {
-    return(
+  return (
     <SafeEnvironmentContainerstyled>
-        <Container>
-            Ambiente Seguro
-
-        </Container>
-    </SafeEnvironmentContainerstyled> 
-
-    );
-
-}
+      <Container>
+        Ambiente Seguro <i className={"twf-lock"} />
+      </Container>
+    </SafeEnvironmentContainerstyled>
+  );
+};
 
 export default SafeEnvironment;
